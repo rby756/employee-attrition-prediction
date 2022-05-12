@@ -244,5 +244,5 @@ def predict():
         return render_template("result.html", pred=pred)
 
 
-if __name__=="main":
-    debug=True
+if __name__=='__main__':
+  app.run(host='0.0.0.0',port=8080)
